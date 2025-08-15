@@ -1,0 +1,36 @@
+
+"""
+Tutorial: Como subi meus arquivos para o GitHub
+
+1. Configurei o Git com meu nome de usuário e email:
+   git config --global user.name "kleyvison72457"
+   git config --global user.email "thomaskleyvison7@gmail.com"
+
+2. Clonei o repositório do GitHub:
+   git clone https://github.com/kleyvison2457/atividade_01.git
+   Obs.: Deu erro porque a pasta já existia.
+
+3. Inicializei o repositório Git na pasta:
+   git init
+
+4. Criei o arquivo README.md:
+   echo "# atividade_01" >> README.md
+
+5. Adicionei o arquivo ao stage:
+   git add README.md
+
+6. Fiz o commit com a mensagem:
+   git commit -m "teste commit"
+
+7. Renomeei a branch para 'main':
+   git branch -M main
+
+8. Adicionei o repositório remoto:
+   git remote add origin https://github.com/kleyvison2457/atividade_01.git
+
+9. Enviei os arquivos para o GitHub:
+   git push -u origin main
+
+Fim do tutorial.
+"""
+
