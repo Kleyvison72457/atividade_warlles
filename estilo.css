@@ -1,0 +1,24 @@
+/* Hover na imagem dos cards de receitas */
+.recipe-card:hover .recipe-image {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+/* Categoria ativa */
+.category-btn.active {
+    background-color: #f59e0b;
+    color: white;
+}
+
+/* Níveis de dificuldade */
+.difficulty-easy {
+    background-color: #10b981; /* verde */
+}
+
+.difficulty-medium {
+    background-color: #f59e0b; /* laranja */
+}
+
+.difficulty-hard {
+    background-color: #ef4444; /* vermelho */
+}
